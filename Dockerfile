@@ -15,7 +15,7 @@ ENV EXECUTABLE_JAR forge-${FORGE_VERSION}-universal.jar
 RUN DEBIAN_FRONTEND=noninteractive
 WORKDIR "/forge"
 
-ADD ./scripts/start.sh /start_forge
+ADD ./start.sh /start_forge
 RUN chmod +x /start_forge
 
 EXPOSE ${MINECRAFT_PORT}
