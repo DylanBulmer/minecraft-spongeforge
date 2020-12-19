@@ -5,7 +5,7 @@ ENV MINECRAFT_EULA true
 ENV MINECRAFT_MAXHEAP 2048M
 
 ENV FORGE_VERSION 1.12.2-14.23.5.2838
-ENV FORGE_URL https://files.minecraftforge.net/maven/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar
+ENV FORGE_URL https://files.minecraftforge.net/maven/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-universal.jar
 
 ENV SPONGE_VERSION 1.12.2-2838-7.3.0
 ENV SPONGE_URL https://repo.spongepowered.org/maven/org/spongepowered/spongeforge/${SPONGE_VERSION}/spongeforge-${SPONGE_VERSION}.jar
